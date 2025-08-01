@@ -5,6 +5,9 @@ import cors from "cors";
 // import { connect } from "mongoose";
 import connectDB from "./configs/db.js";
 import adminRouter from "./routes/adminRoutes.js";
+import dotenv from "dotenv";
+dotenv.config();
+
 
 const app = express();
 
