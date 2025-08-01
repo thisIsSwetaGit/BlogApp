@@ -5,9 +5,12 @@ import cors from "cors";
 // import { connect } from "mongoose";
 import connectDB from "./configs/db.js";
 import adminRouter from "./routes/adminRoutes.js";
+<<<<<<< HEAD
 import dotenv from "dotenv";
 dotenv.config();
 
+=======
+>>>>>>> 27775cbbe24bdbdc5b9f90ec725c730059323ca7
 
 const app = express();
 
