@@ -2,7 +2,7 @@ import React, { use, useState } from "react";
 import { blogCategories } from "../assets/assets";
 import {motion} from "framer-motion";
 import { blog_data } from "../assets/assets";
-import BlogCard from "./Blogcard";
+import BlogCard from "./BlogCard";
 import { useAppContext } from "../context/AppContext";
 
 const BlogList = () => {
