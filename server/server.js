@@ -1,16 +1,10 @@
 import express from "express";
 import "dotenv/config";
-// import mongoose from "mongoose";
 import cors from "cors";
-// import { connect } from "mongoose";
 import connectDB from "./configs/db.js";
 import adminRouter from "./routes/adminRoutes.js";
-<<<<<<< HEAD
-import dotenv from "dotenv";
-dotenv.config();
+import blogRouter from "./routes/blogRoutes.js";
 
-=======
->>>>>>> 27775cbbe24bdbdc5b9f90ec725c730059323ca7
 
 const app = express();
 
@@ -23,6 +17,7 @@ app.use(express.json());
 //Routes
 app.get("/", (req, res) => res.send("API is running..."));
 app.use("/api/admin", adminRouter);
+app.use("/api/blog", blogRouter);
 
 
 const PORT = process.env.PORT || 3000;

@@ -11,13 +11,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@google/genai": "^1.12.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
-<<<<<<< HEAD
     "imagekit": "^6.0.0",
-=======
->>>>>>> 27775cbbe24bdbdc5b9f90ec725c730059323ca7
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.17.0",
     "multer": "^2.0.2"
